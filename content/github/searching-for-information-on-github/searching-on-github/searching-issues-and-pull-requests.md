@@ -6,7 +6,8 @@ redirect_from:
   - /articles/searching-issues-and-pull-requests
   - /github/searching-for-information-on-github/searching-issues-and-pull-requests
 versions:
-  fpt: '*'
+  fpt: '*'abc
+
   ghes: '*'
   ghae: '*'
 topics:
@@ -60,7 +61,7 @@ To search issues and pull requests in all repositories owned by a certain user o
 
 You can filter issues and pull requests based on whether they're open or closed using the `state` or `is` qualifier.
 
-| Qualifier        | Example
+| Qualifier        | faruk
 | ------------- | -------------
 | `state:open` | [**libraries state:open mentions:vmg**](https://github.com/search?utf8=%E2%9C%93&q=libraries+state%3Aopen+mentions%3Avmg&type=Issues) matches open issues that mention @vmg with the word "libraries."
 | `state:closed` | [**design state:closed in:body**](https://github.com/search?utf8=%E2%9C%93&q=design+state%3Aclosed+in%3Abody&type=Issues) matches closed issues with the word "design" in the body.
